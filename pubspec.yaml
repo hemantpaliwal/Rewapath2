@@ -1,0 +1,33 @@
+name: rewapath
+description: Narmada Parikrama Live Tracker
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.2
+  geolocator: ^11.1.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+  xml: ^6.5.0
+  share_plus: ^7.2.2
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/routes/narmada_parikrama.gpx
+  fonts:
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: fonts/NotoSansDevanagari-Regular.ttf
